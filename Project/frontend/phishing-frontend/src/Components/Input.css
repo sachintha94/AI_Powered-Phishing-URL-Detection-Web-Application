@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #add8e6; 
+    color: #333;
+  }
+  
+  .login-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .login-html {
+    background: #fff;
+    padding: 40px 50px; /* Adjusted padding for spacing inside the white box */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 900px; /* Increased max width for better alignment */
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+ 
+
+  .title {
+  font-size: 26px;
+  color: #0d47a1;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  
+
+  .input {
+  width: 400px;              /* increase fixed width */
+  max-width: 90%;            /* make responsive */
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 2px solid #1161ee;
+  background: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+  
+  .input::placeholder {
+    font-style: italic; /* Italicized placeholder */
+    color: #1161ee; /* Light gray for placeholder text */
+    font-size: 14px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #1161ee;
+    background: #eef4ff; /* Light blue background on focus */
+  }
+  
+  .input:focus::placeholder {
+    color: #1161ee; /* Highlight placeholder text when focused */
+  }
+  
+  .submit-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button {
+  width: 60%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #1161ee, #0d47a1);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(17, 97, 238, 0.3);
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #0d47a1, #1161ee);
+  transform: scale(1.03);
+}
+
+  .response-message {
+  color: #fff;
+  background-color: #1161ee;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+  
