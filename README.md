@@ -69,3 +69,12 @@ const res = await fetch("http://127.0.0.1:8000/predict-url", {
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ url }),
 });
+
+<img width="653" height="306" alt="image" src="https://github.com/user-attachments/assets/cfc7c4e9-aa65-4c34-b166-c344a331f378" />
+
+
+<img width="527" height="243" alt="image" src="https://github.com/user-attachments/assets/6183bfc6-047d-46b3-9fcf-0dab9f60149e" />
+
+
+<img width="521" height="380" alt="image" src="https://github.com/user-attachments/assets/29b562ae-d408-4209-9741-f701129562c1" />
+
