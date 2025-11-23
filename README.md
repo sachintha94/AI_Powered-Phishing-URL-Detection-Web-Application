@@ -44,7 +44,6 @@ A complete full-stack web application designed to detect phishing URLs in real t
 - Returns prediction + probability  
 
 ### **3. Machine Learning Model**
-<img width="527" height="243" alt="image" src="https://github.com/user-attachments/assets/6183bfc6-047d-46b3-9fcf-0dab9f60149e" />
 - Random Forest Classifier  
 - Trained on 80+ handcrafted URL features  
 - Labels:
@@ -53,7 +52,7 @@ A complete full-stack web application designed to detect phishing URLs in real t
 ---
 
 <img width="521" height="380" alt="image" src="https://github.com/user-attachments/assets/29b562ae-d408-4209-9741-f701129562c1" />
-
+<img width="527" height="243" alt="image" src="https://github.com/user-attachments/assets/6183bfc6-047d-46b3-9fcf-0dab9f60149e" />
 
 ## 🎨 Frontend (React.js)
 <img width="653" height="306" alt="image" src="https://github.com/user-attachments/assets/cfc7c4e9-aa65-4c34-b166-c344a331f378" />
